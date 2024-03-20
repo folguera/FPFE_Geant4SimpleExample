@@ -13,3 +13,10 @@ cmake -DGeant4_DIR=opt/geant4/geant4-v10.07.p03_install/lib/Geant4-10.7.3/ ../
 make -j 4 exampleB4d
 ./exampleB4d -m macro.mac
 ```
+
+### Analyze output
+The code analyzeOutput.py needs uproot and pandas to run, to install it: 
+
+```
+pip install uproot awkward
+```
